@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/home/duc/miniconda3/envs/crawl_data
+exec_prefix=/home/duc/miniconda3/envs/crawl_data
+libdir=/home/duc/miniconda3/envs/crawl_data/lib
+includedir=/home/duc/miniconda3/envs/crawl_data/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.4.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread

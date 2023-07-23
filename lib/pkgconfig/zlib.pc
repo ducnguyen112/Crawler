@@ -1,0 +1,13 @@
+prefix=/home/duc/miniconda3/envs/crawl_data
+exec_prefix=/home/duc/miniconda3/envs/crawl_data
+libdir=/home/duc/miniconda3/envs/crawl_data/lib
+sharedlibdir=/home/duc/miniconda3/envs/crawl_data/lib
+includedir=/home/duc/miniconda3/envs/crawl_data/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
